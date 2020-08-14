@@ -57,7 +57,7 @@ function load(name) {
   });
 }
 alice.save();
-// bob.save()
-// load("Alice Cooper")
-// load("Bob Marley")
+bob.save()
+load("Alice Cooper")
+load("Bob Marley")
 module.exports = { Visitor, load };
